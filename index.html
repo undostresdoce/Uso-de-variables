@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="description" content="Desafío operaciones matemáticas">
+    <meta name="author" content="Camila Collado Tejo">
+    <title>Operaciones matemáticas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <h1>Desafío día 2 - Uso de variables y operadores aritméticos</h1>
+    <!--Ejercicio 2-->
+    <h2>Ejercicio n° 2 - Operaciones con dos números</h2>
+    <!-- suma -->
+    <h2>Suma de dos números</h2>
+
+    <label></label>
+    <input id="sumaUno" type="number" placeholder="Ingrese numero 1">
+    <label>+
+    </label>
+    <input id="sumaDos" type="number" placeholder="Ingrese numero 2">
+
+    <button id="inputSuma" type="button">Sumar</button>
+
+    <label>Resultado : </label>
+    <input id="resultadoSuma" type="number">
+
+    <!-- Resta -->
+    <h2>Resta de dos números</h2>
+
+    <label></label>
+    <input id="restaUno" type="number" placeholder="Ingrese numero 1">
+    <label>-
+    </label>
+    <input id="restaDos" type="number" placeholder="Ingrese numero 2">
+
+    <button id="inputResta" type="submit">Restar</button>
+
+    <label>Resultado : </label>
+    <input id="resultadoResta" type="number">
+
+    <!-- División -->
+    <h2>División de dos números</h2>
+
+    <label></label> <!--ETIQUETA INTERFAZ DE USUARIO-->
+    <input id="divisionUno" type="number" placeholder="Ingrese numero 1">
+    <label>/
+    </label>
+    <input id="divisionDos" type="number" placeholder="Ingrese numero 2">
+
+    <button id="inputDivision" type="submit">Dividir</button>
+
+    <label>Resultado : </label>
+    <input id="resultadoDivision" type="number">
+
+    <!-- Multiplicar -->
+    <h2>Multiplicar de dos números</h2>
+
+    <label></label>
+    <input id="multiUno" type="number" placeholder="Ingrese numero 1">
+    <label>x
+    </label>
+    <input id="multiDos" type="number" placeholder="Ingrese numero 2">
+
+    <button id="inputMulti" type="submit">Multiplicar</button>
+
+    <label>Resultado : </label>
+    <input id="resultadoMulti" type="number">
+
+    <!-- Módulo -->
+    <h2>Módulo de dos números</h2>
+
+    <label></label>
+    <input id="moduloUno" type="number" placeholder="Ingrese numero 1">
+    <label>%</label>
+    </label>
+    <input id="moduloDos" type="number" placeholder="Ingrese numero 2">
+
+    <button id="inputModulo" type="submit">Modulo</button>
+
+    <label>Resultado : </label>
+    <input id="resultadoModulo" type="number">
+
+
+    <!--ejercicio 3-->
+    <h2>Ejercicio n° 3 - Ingresar la temperatura en grados Celsius y que
+        la transforme a grados Kelvin y Fahrenheit. </h2>
+    <div>
+        <label>Ingresa los grados Celsius a convertir :</label>
+        <input id="celsius" type="number" placeholder="">
+        <button id="inputConvertir" type="submit">Convertir</button>
+    </div>
+    <span><br></span>
+    <div>
+        <label>La conversión a grados Kelvin es: </label>
+        <input id="kelvin" type="number" placeholder="">
+    </div>
+    <div>
+        <label>La conversión a grados Fahrenheit : </label>
+        <input id="fahrenheit" type="number" placeholder="">
+    </div>
+    <!--ejercicio 4-->
+    <h2>Ejercicio n° 4 - Programa días equivalentes a años, semanas y días</h2>
+
+    <div>
+        <label>Ingresa los días que deseas calcular el equivalente :</label>
+        <input id="numDias" type="number" placeholder="">
+        <button id="inputDias" type="submit">Convertir</button>
+    </div>
+    <span><br></span>
+    <div>
+        <P>El equivalente es <span id="anos"></span> año(s), <span id="semanas"></span> semana(s) y <span id="dias">
+            </span> día(s).</P>
+
+
+        <!--ejercicio 5-->
+        <h2>Ejercicio n° 5 - 5 números y cálculos (suma y promedio)</h2>
+        <div>
+
+            <label>Número 1</label>
+            <input id="num1" type="number" placeholder="">
+        </div>
+        <div>
+
+            <label>Número 2</label>
+            <input id="num2" type="number" placeholder="">
+        </div>
+        <div>
+
+            <label>Número 3</label>
+            <input id="num3" type="number" placeholder="">
+        </div>
+        <div>
+
+            <label>Número 4</label>
+            <input id="num4" type="number" placeholder="">
+        </div>
+        <div>
+
+            <label>Número 5</label>
+            <input id="num5" type="number" placeholder="">
+            <button id="inputOperacion" type="button">Operación</button>
+            <span><br><br></span>
+
+        </div>
+
+        <div>
+            <label>Resultado de la suma :</label>
+            <input id="suma" type="number" placeholder="">
+        </div>
+        <div>
+            <label>Resultado del promedio</label>
+            <input id="promedio" type="number" placeholder="">
+        </div>
+
+        <script src="assets/js/app.js"></script>
+</body>
+
+</html>
