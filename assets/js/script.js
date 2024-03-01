@@ -68,7 +68,7 @@ document.getElementById("inputDias").addEventListener("click", function () {
 
   document.getElementById("anos").innerText = anios;
   document.getElementById("semanas").innerText = semanas;
-  document.getElementById("dias").innerText = diasRestantes;
+  document.getElementById("dias").innerText = diasFinales;
 });
 
 document
